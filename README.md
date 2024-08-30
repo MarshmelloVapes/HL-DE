@@ -13,3 +13,6 @@ yay -S hyprland-bin kitty waybar-hyprland \
 ```
 
 Or you can use the attached script "set-hypr" to install everything for you.
+
+
+Everything here is sourced from https://www.youtube.com/watch?v=lfUWwZqzHmA - Sol Does Tech's set up. Seemed like a quick easy way to get everything set up quickly. Adjustments have been made to keybindings to match my preference and likely more updates to follow if I'm not lazy.
