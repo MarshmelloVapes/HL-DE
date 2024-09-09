@@ -60,6 +60,7 @@ tooltip {
 #workspaces,
 #tray,
 #cpu,
+#memory,
 #backlight {
     background: #1e1e2e;
     opacity: 0.8;
@@ -107,6 +108,12 @@ tooltip {
 }
 
 #cpu {
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#memory {
     border-radius: 10px;
     margin-left: 10px;
     margin-right: 10px;
