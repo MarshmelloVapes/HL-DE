@@ -106,6 +106,12 @@ tooltip {
     margin-right: 60px;
 }
 
+#cpu {
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 #clock {
     color: #fab387;
     border-radius: 10px 0px 0px 10px;
