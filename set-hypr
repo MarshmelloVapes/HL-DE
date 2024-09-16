@@ -33,6 +33,7 @@
 # dracula-gtk-theme: the Dracula theme, it fits the overall look and feel
 # dracula-icons-git" set of icons to go with the Dracula theme
 # xdg-desktop-portal-hyprland: xdg-desktop-portal backend for hyprland
+# ib-tws - Interactive brokers platform
 
 #### Check for yay ####
 ISYAY=/sbin/yay
@@ -66,6 +67,7 @@ if [[ $INST == "Y" || $INST == "y" ]]; then
     swappy grim slurp pamixer brightnessctl gvfs \
     bluez bluez-utils lxappearance xfce4-settings \
     dracula-gtk-theme dracula-icons-git xdg-desktop-portal-hyprland chromium\
+    ib-tws
 
     # Start the bluetooth service
     echo -e "Starting the Bluetooth Service...\n"
