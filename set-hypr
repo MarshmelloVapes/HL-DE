@@ -95,6 +95,10 @@ if [[ $CFG == "Y" || $CFG == "y" ]]; then
     # Set some files as exacutable
     chmod +x ~/.config/hypr/xdg-portal-hyprland
     chmod +x ~/.config/waybar/scripts/waybar-wttr.py
+
+    # Set up nvim Plugged
+    sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
+       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 fi
 
 ### Install teh starship shell ###
