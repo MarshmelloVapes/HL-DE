@@ -34,6 +34,7 @@
 # dracula-icons-git" set of icons to go with the Dracula theme
 # xdg-desktop-portal-hyprland: xdg-desktop-portal backend for hyprland
 # ib-tws - Interactive brokers platform
+# zen-browser - Firefox base - Very nice UI. Install firefox still
 
 #### Check for yay ####
 ISYAY=/sbin/yay
@@ -67,7 +68,7 @@ if [[ $INST == "Y" || $INST == "y" ]]; then
     swappy grim slurp pamixer brightnessctl gvfs \
     bluez bluez-utils lxappearance xfce4-settings \
     dracula-gtk-theme dracula-icons-git xdg-desktop-portal-hyprland chromium\
-    ib-tws
+    ib-tws zen-browser
 
     # Start the bluetooth service
     echo -e "Starting the Bluetooth Service...\n"
