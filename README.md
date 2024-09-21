@@ -21,7 +21,7 @@ cd yay\
 makepkg -si
 
 Install this Desktop\
-git clone https://github.com/MarshmelloVapes/HL-DE.git\
+git clone https://github.com/MarshmelloVapes/HL-DE.git \
 cd hl-de\
 sudo chmod +x set-hypr\
 ./set-hypr
