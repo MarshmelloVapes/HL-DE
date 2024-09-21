@@ -7,7 +7,7 @@ iwctl\
 iwctl device wlan0 station\
 iwctl device wlan0 scan\
 iwctl device wlan0 connect SSID\
-Enter password / exit.\
+Enter password / exit.
 
 Install arch.
 
