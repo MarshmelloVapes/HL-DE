@@ -16,7 +16,7 @@ Connect to internet with nmcli
 mkdir Install
 
 Install YAY\
-git clone https://aur.archlinux.org/yay.git\
+git clone https://aur.archlinux.org/yay.git \
 cd yay\
 makepkg -si
 
