@@ -9,22 +9,22 @@ iwctl device wlan0 scan\
 iwctl device wlan0 connect SSID\
 Enter password / exit.\
 
-Install arch.\
+Install arch.
 
-Connect to internet with nmcli\
+Connect to internet with nmcli
 
-mkdir Install\
+mkdir Install
 
 Install YAY\
 git clone https://aur.archlinux.org/yay.git\
 cd yay\
-makepkg -si\
+makepkg -si
 
 Install this Desktop\
 git clone https://github.com/MarshmelloVapes/HL-DE.git\
 cd hl-de\
 sudo chmod +x set-hypr\
-./set-hypr\
+./set-hypr
 
 You can grab the config files and install packages by hand with this commnad
 ```
