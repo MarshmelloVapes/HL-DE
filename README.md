@@ -2,28 +2,29 @@
 collection of dot config files for hyprland with a simple install script for a fresh Arch linux with yay
 
 Arch bootable usb
-iwctl
-iwctl device wlan0 station
-iwctl device wlan0 scan
-iwctl device wlan0 connect SSID
-Enter password / exit.
 
-Install arch.
+iwctl\
+iwctl device wlan0 station\
+iwctl device wlan0 scan\
+iwctl device wlan0 connect SSID\
+Enter password / exit.\
 
-Connect to internet with nmcli
+Install arch.\
 
-mkdir Install
+Connect to internet with nmcli\
 
-Install YAY
-git clone https://aur.archlinux.org/yay.git
-cd yay
-makepkg -si
+mkdir Install\
 
-Install this Desktop
-git clone https://github.com/MarshmelloVapes/HL-DE.git
-cd hl-de
-sudo chmod +x set-hypr
-./set-hypr
+Install YAY\
+git clone https://aur.archlinux.org/yay.git\
+cd yay\
+makepkg -si\
+
+Install this Desktop\
+git clone https://github.com/MarshmelloVapes/HL-DE.git\
+cd hl-de\
+sudo chmod +x set-hypr\
+./set-hypr\
 
 You can grab the config files and install packages by hand with this commnad
 ```
