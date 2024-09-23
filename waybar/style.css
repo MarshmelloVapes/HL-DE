@@ -2,7 +2,7 @@
     border: none;
     border-radius: 0;
     font-family: "JetBrainsMono Nerd Font";
-    font-weight: bold;
+    /*font-weight: bold;*/
     font-size: 16px;
     min-height: 0;
 }
@@ -48,8 +48,6 @@ tooltip {
     border-radius: 10px;
 }
 
-#custom-power_profile,
-#custom-weather,
 #window,
 #clock,
 #battery,
@@ -71,7 +69,8 @@ tooltip {
 }
 
 #temperature {
-    border-radius: 10px 0px 0px 10px;
+    border-radius: 10px;
+    margin-right: 5px;
 }
 
 #temperature.critical {
@@ -79,7 +78,7 @@ tooltip {
 }
 
 #backlight {
-    border-radius: 10px 0px 0px 10px;
+    border-radius: 10px;
 }
 
 #tray {
@@ -110,29 +109,26 @@ tooltip {
 #cpu {
     border-radius: 10px;
     margin-left: 10px;
-    margin-right: 10px;
 		color: #F76DFF
 }
 
 #memory {
     border-radius: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 5px;
 		color: #FF6D6D
 }
 
 #clock {
     color: #fab387;
     border-radius: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 #network {
     color: #f9e2af;
-    border-radius: 10px 0px 0px 10px;
-    border-left: 0px;
-    border-right: 0px;
+    border-radius: 10px;
+    margin-right: 5px;
 }
 
 #bluetooth {
@@ -145,6 +141,9 @@ tooltip {
     color: #89b4fa;
     border-left: 0px;
     border-right: 0px;
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-right: 10px;
 }
 
 #pulseaudio.microphone {
@@ -157,9 +156,8 @@ tooltip {
 
 #battery {
     color: #a6e3a1;
-    border-radius: 0 10px 10px 0;
-    margin-right: 10px;
-    border-left: 0px;
+    border-radius: 10px;
+    margin-right: 5px;
 }
 
 #custom-weather {
