@@ -6,9 +6,9 @@
     "passthrough": false,
     "gtk-layer-shell": true,
     "height": 50,
-    "modules-left": ["clock", "cpu", "memory","hyprland/workspaces"],
-    "modules-center": [],
-    "modules-right": ["network", "bluetooth", "temperature","battery","backlight","pulseaudio","pulseaudio#microphone","tray"],
+    "modules-left": ["cpu", "memory", "hyprland/workspaces"],
+    "modules-center": ["clock"],
+    "modules-right": ["network", "temperature","battery","backlight","pulseaudio","tray"],
     "hyprland/window": {
         "format": "{}"
     },
@@ -31,19 +31,10 @@
         }
     },
 
-   "custom/weather" : {
-        //shows the current weather and forecast
-        "tooltip" : true,
-        "format" : "{}",
-        "interval" : 30,
-        "exec" : "~/.config/waybar/scripts/waybar-wttr.py",
-        "return-type" : "json"
-    },
-
     "cpu": {
-	"interval": 1,
-	"format": "{icon0}{icon1}{icon2}{icon3} {usage:>2}% ",
-	"format-icons": ["▁", "▂", "▃", "▄", "▅", "▆", "▇", "█"]
+			"interval": 1,
+			"format": "{icon0}{icon1}{icon2}{icon3} {usage:>2}% ",
+			"format-icons": ["▁", "▂", "▃", "▄", "▅", "▆", "▇", "█"]
     },
 
     "memory": {
@@ -124,7 +115,7 @@
 
     "network": {
         // "interface": "wlp2*", // (Optional) To force the use of this interface
-        "format-wifi": "  {signalStrength}%",
+        "format-wifi": "  {bandwidthTotalBytes}",
         "format-ethernet": "{ipaddr}/{cidr}",
         "tooltip-format": "{essid} - {ifname} via {gwaddr}",
         "format-linked": "{ifname} (No IP)",
