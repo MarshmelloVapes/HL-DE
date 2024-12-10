@@ -68,7 +68,7 @@ if [[ $INST == "Y" || $INST == "y" ]]; then
     swappy grim slurp pamixer brightnessctl gvfs \
     bluez bluez-utils lxappearance xfce4-settings \
     dracula-gtk-theme dracula-icons-git xdg-desktop-portal-hyprland \
-    ib-tws zen-browser onlyoffice-bin obsidian xpdf docker
+    ib-tws zen-browser onlyoffice-bin obsidian xpdf docker power-profiles-daemon
 
     # Start the bluetooth service
     echo -e "Starting the Bluetooth Service...\n"
