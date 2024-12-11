@@ -28,3 +28,5 @@ sudo chmod +x set-hypr\
 
 
 Everything here is sourced from https://www.youtube.com/watch?v=lfUWwZqzHmA - Sol Does Tech's set up. Seemed like a quick easy way to get everything set up quickly. Adjustments have been made to keybindings to match my preference and likely more updates to follow if I'm not lazy.
+
+If looking for file encription on a single folder look at the ecryptfs arch guide.
