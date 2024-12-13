@@ -11,9 +11,6 @@ PS1='[\u@\h \W]\$ '
 
 eval "$(starship init bash)"
 
-# Created by `pipx` on 2024-09-26 01:26:53
-export PATH="$PATH:/home/josh/.local/bin"
-
 export PIPEWIRE_RUNTIME_DIR=/run/user/1000
 
 alias em="ecryptfs-mount-private"
