@@ -21,8 +21,3 @@ alias eu="ecryptfs-umount-private"
 alias warmane="wine ~/Games/Warmane\ 3.3.5a/Wow.exe"
 alias w10="qemu-system-x86_64 -m 8000 -enable-kvm -drive file=~/QEMU/win,format=raw -cpu host -smp cores=6 -vga std -usbdevice tablet -device usb-host,hostbus=002,hostport=003"
 
-# bun
-export BUN_INSTALL="$HOME/.bun"
-export PATH="$BUN_INSTALL/bin:$PATH"
-
-export PATH=$PATH:/home/josh/.spicetify
