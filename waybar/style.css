@@ -65,13 +65,13 @@ tooltip {
     opacity: 0.8;
     padding: 0px 10px;
     margin: 0px 0px;
-    margin-top: 10px;
+    margin-top: 5px;
     border-radius: 35px 0px 35px 10px;
 }
 
 #power-profiles-daemon {
     border-radius: 35px 0px 35px 10px;
-    margin-right: 5px;
+    margin-left: 10px;
     padding-right: 20px;
 }
 
@@ -85,11 +85,11 @@ tooltip {
 }
 
 #backlight {
-    border-radius: 35px 0px 35px 10px;
+    border-radius: 0px 35px 10px 35px;
 }
 
 #tray {
-    border-radius: 35px 0px 35px 10px;
+    border-radius: 0px 35px 10px 35px;
     margin-right: 10px;
 }
 
@@ -121,32 +121,30 @@ tooltip {
 
 #clock {
     color: #fab387;
-    border-radius: 35px 0px 35px 10px;
-    margin-left: 10px;
-    margin-right: 0px;
+    border-radius: 0px 0px 35px 35px;
 }
 
 #network {
     color: #f9e2af;
-    border-radius: 35px 0px 35px 10px;
+    border-radius: 0px 35px 10px 35px;
     margin-right: 5px;
 }
 
 #pulseaudio {
     color: #89b4fa;
-    border-radius: 35px 0px 35px 10px;
+    border-radius: 0px 35px 10px 35px;
     margin-left: 5px;
     margin-right: 10px;
 }
 
 #pulseaudio.microphone {
     color: #cba6f7;
-    border-radius: 35px 0px 35px 10px;
+    border-radius: 0px 35px 10px 35px;
     margin-right: 10px;
 }
 
 #battery {
     color: #a6e3a1;
-    border-radius: 35px 0px 35px 10px;
+    border-radius: 0px 35px 10px 35px;
     margin-right: 5px;
 }
