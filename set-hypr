@@ -106,8 +106,6 @@ fi
 read -n1 -rep 'Would you like to install the starship shell? (y,n)' STAR
 if [[ $STAR == "Y" || $STAR == "y" ]]; then
     # install the starship shell
-    echo -e "Updating .bashrc...\n"
-    echo -e '\neval "$(starship init bash)"' >> ~/.bashrc
     echo -e "copying starship config file to ~/.confg ...\n"
     cp starship.toml ~/.config/
 fi
